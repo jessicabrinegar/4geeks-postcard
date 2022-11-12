@@ -1,0 +1,62 @@
+body {
+	background: black;
+}
+/* code below puts line around components of document for better visualization */
+/* * {border: 1px dashed red;min-height: 10px;} */
+
+.upper-pad {
+	width: 300px;
+	height: 200px;
+	background: black;
+}
+.postcard {
+	box-sizing: border-box;
+	width: 400px;
+	height: 300px;
+	background: white;
+	margin: auto;
+	font-family: "Poor Story", cursive;
+}
+.postcard-header {
+	display: flex;
+	padding: 5px;
+}
+.postcard-header img {
+	width: 60px;
+	height: 65px;
+}
+.postcard-header h1 {
+	padding-top: 15px;
+	width: 310px;
+	margin: 0%;
+	margin-left: 10px;
+}
+
+.postcard-body {
+	display: flex;
+}
+.body-left,
+.body-right {
+	padding: 5px;
+	height: 100%;
+	width: 50%;
+}
+.body-left p {
+	margin: 0%;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+input {
+	border: none;
+	border-bottom: 1px solid darkgray;
+	width: 90%;
+}
+.postcard-footer {
+	padding-top: 10px;
+	text-align: center;
+}
+button {
+	font-family: "Poor Story", cursive;
+	background-color: rgb(62, 141, 198);
+	padding: 5px;
+}
