@@ -48,7 +48,7 @@ body {
 }
 input {
 	border: none;
-	border-bottom: 1px solid darkgray;
+	border-bottom: 1px solid grey;
 	width: 90%;
 }
 .postcard-footer {
